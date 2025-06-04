@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/bandwidth-allocation.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.edge-computing]
+path = 'contracts/edge-computing.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
